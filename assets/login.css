@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+
+.wrapper {
+    color: black;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+
+.wrapper .input-box {
+    height: 40px;
+    margin: 40px 0;
+    position: relative;
+    width: 100%;
+}
+
+
+.input-box input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: black;
+    font-size: 14px;
+    height: 100%;
+    padding: 24px;
+    width: 100%;
+}
+
+
+.input-box input::placeholder {
+    color: black;
+}
+
+
+.wrapper .remenber-forget {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.remenber-forget a {
+    color: black;
+    text-decoration: none
+}
+
+
+.remenber-forget a:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper .btn {
+    background: black;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+}
+
+
+.wrapper .register-link {
+    font-size: 14px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.register-link p a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+header {
+    align-items: center;
+    background: black;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    left: 0;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.Logotipo {
+    color: white;
+    font-size: 50px;
+}
+
+
+.Navegación a {
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.Navegación a::after {
+    background: white;
+    bottom: -8px;
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    width: 100%;
+}
+
+
+.Navegación a:hover::after {
+    transform: scaleX(1);
+}
+
+
+.Inicio {
+    align-items: center;
+    display: flex;
+    margin-top: 135px;
+    justify-content: center;
+}
