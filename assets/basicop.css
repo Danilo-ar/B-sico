@@ -61,3 +61,9 @@ header {
     margin-top: 135px;
     justify-content: center;
 }
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
