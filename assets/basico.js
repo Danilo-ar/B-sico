@@ -104,7 +104,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
                 </div>
                 <span class="carrito-item-precio">${precio}</span>
             </div>
-            <button class="btn-eliminar">
+            <button class="btn-eliminar">X
                 <i class="fa-solid fa-trash"></i>
             </button>
         </div>
